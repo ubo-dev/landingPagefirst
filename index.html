@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UBO</title>
+    <meta name="keyword" content="HTML,CSS,JavaScript" />
+    <meta name="description" content="Umut Bilal Okur" />
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="./css/tablet.css" />
+    <link rel="stylesheet" media="(max-width:500px)" href="./css/mobile.css" />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1 class="heading-small">Umut Bilal Okur</h1>
+
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="home">
+      <img
+        src="https://i.pinimg.com/474x/2d/70/1f/2d701f60a5697686370cb3a81ea5ca52.jpg"
+        alt="bos"
+      />
+      <div class="name text-center">
+        <h2 class="heading-big">Umut Bilal Okur</h2>
+        <p>Full-Stack Developer | MIS Student</p>
+      </div>
+
+      <a href="#about" class="btn btn-primary btn-block text-center"> Info </a>
+    </section>
+
+    <section id="about" class="bg-dark-blue">
+      <h3 class="text-center heading-medium">Interests</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>HTML5 - CSS3</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+            consequatur?
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>JavaScript</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+            consequatur?
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Java</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+            consequatur?
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="blog">
+      <h3 class="text-center heading-medium">BLOG</h3>
+      <div class="container">
+        <div class="blogs">
+          <div class="blog">
+            <div class="blog-img">
+              <img
+                src="https://miro.medium.com/max/602/1*DuGA5P6fNDETX-wkEyxRWw.png"
+                alt="mis"
+                style="width: 300px"
+              />
+              <div class="blog-info">
+                <div class="title">What is MIS?</div>
+                <div class="description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Inventore nesciunt, nisi illum at ex aut sequi suscipit labore
+                  culpa nihil!
+                </div>
+                <div class="author">Author: -UBO</div>
+                <span>MIS</span>
+              </div>
+            </div>
+          </div>
+          <div class="blog">
+            <div class="blog-img">
+              <img
+                src="https://siberci.com/wp-content/uploads/2021/07/full-stack-developer-nedir-768x432.jpeg"
+                alt="fullstack"
+                style="width: 300px"
+              />
+              <div class="blog-info">
+                <div class="title">How to be an full-stack-developer ?</div>
+                <div class="description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Inventore nesciunt, nisi illum at ex aut sequi suscipit labore
+                  culpa nihil!
+                </div>
+                <div class="author">Author: -UBO</div>
+                <span>FS-DEV</span>
+              </div>
+            </div>
+          </div>
+          <div class="blog">
+            <div class="blog-img">
+              <img
+                src="https://www.kenorabiz.com/wp-content/uploads/2022/01/Artificial-Intelligence.jpg"
+                alt="ai"
+                style="width: 300px"
+              />
+              <div class="blog-info">
+                <div class="title">What is Artificial Intelligence?</div>
+                <div class="description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Inventore nesciunt, nisi illum at ex aut sequi suscipit labore
+                  culpa nihil!
+                </div>
+                <div class="author">Author: -UBO</div>
+                <span>AI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+        <form>
+          <h4 class="text-center heading-medium">Get In Touch</h4>
+          <div class="form-group">
+            <label for="name"> Name </label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email"> Email </label>
+            <input
+              type="text"
+              class="form-control"
+              name="email"
+              id="email"
+              placeholder="E-Mail"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message"> Message </label>
+            <textarea
+              name="message"
+              class="form-control"
+              id="message"
+              placeholder="Your Message"
+              rows="5"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Send</button>
+        </form>
+
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/umutokurb1/">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/uboSoftware">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/umut-bilal-okur-2050a3235/"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

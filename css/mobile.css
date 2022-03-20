@@ -1,0 +1,21 @@
+#navbar {
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  overflow: hidden;
+  height: 90px;
+}
+
+#about .items {
+  flex-direction: column;
+}
+#about .items .item {
+  width: 100%;
+}
+.blogs .blog {
+  flex-direction: column;
+}
+.blogs .blog .blog-img {
+  display: block;
+  width: 100%;
+}
